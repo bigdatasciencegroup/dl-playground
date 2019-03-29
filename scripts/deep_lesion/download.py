@@ -93,7 +93,7 @@ def download_zips():
     """Download all image zipfiles in ZIPFILE_URLS to DIRPATH_ZIPS
 
     :return: filepaths to the downloaded zips
-    :type: list[str]
+    :rtype: list[str]
     """
 
     fpaths_zipfiles = []
